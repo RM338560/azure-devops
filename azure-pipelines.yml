@@ -79,7 +79,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : fiap3'
+            displayName: 'Deploy Azure Web App : web338560'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
